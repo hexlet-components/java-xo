@@ -16,4 +16,7 @@ install:
 run:
 	./build/install/java-xo/bin/java-xo
 
+check-updates:
+	./gradlew dependencyUpdates
+
 .PHONY: build
