@@ -34,3 +34,7 @@ application {
 checkstyle {
   toolVersion '9.0'
 }
+
+run {
+    standardInput = System.in
+}
